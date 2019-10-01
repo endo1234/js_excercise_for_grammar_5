@@ -25,7 +25,7 @@ console.log('14を入力したらfalseが返るべき', isOddNumber(14));
 //     3. 【チャレンジ問題】再帰関数を使ったやり方(参考記事: https://qiita.com/chuck0523/items/2c40a5da90a1d73ab956)
 
 // ここにfactorial関数を作る
-const factorial = function (num) {
+const factorial = function(num) {
     let result = 1;
     for (let i = 1; i <= num; i++) {
         result = result * i;
