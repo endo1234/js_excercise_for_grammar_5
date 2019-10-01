@@ -31,7 +31,7 @@ const factorial = function (num) {
         result = result * i;
     }
     return result;
-}
+};
 
 // 【チャレンジ問題】
 function factorial2(num) {
@@ -40,7 +40,7 @@ function factorial2(num) {
     } else {
         return num * factorial2(num - 1);
     }   
-}
+};
 
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
 console.log('4を入力したら24が返るべき', factorial(4));
@@ -60,7 +60,7 @@ console.log('【チャレンジ問題】5を入力したら120が返るべき', 
 // ここにconvertFirstCharacterToUpperCase関数を作る
 const convertFirstCharacterToUpperCase = (text) => {
     return text.charAt(0).toUpperCase() + text.slice(1);
-}
+};
 
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
 console.log('「"hello"」を入力したら「"Hello"」が返るべき: ', convertFirstCharacterToUpperCase('hello'));
